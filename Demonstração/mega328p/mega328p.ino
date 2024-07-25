@@ -24,7 +24,7 @@ void loop() {
   // Envia a representação string pela serial
   Serial.println(temperaturaC);
   digitalWrite(12, HIGH);
-  delay(1000); // Atraso de 1 segundo
+  delay(100); // Atraso de 1 segundo
 }
 
 
